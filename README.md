@@ -27,15 +27,15 @@ This project explores gender bias in state‑of‑the‑art Large Language Model
 Repository Structure
 
 📦 gender-bias-in-educational-llms  
-├── prompts.csv              # Master prompt list (10 categories × 4 prompts)  
-├── promptsTest.py           # Unit‑test script to validate prompt coverage & syntax  
-├── mock2.py                 # Mock engine for offline testing (no API calls)  
-├── test3.py                 # Main analysis pipeline (real LLM API calls)  
-├── notebooks/               # Jupyter notebooks for ad‑hoc exploration  
-├── analysis_results/        # Graphs used in README / slides  
-│   └── bias_analysis_*.csv  # Saved model outputs & computed metrics            
-├── requirements.txt         # Python dependencies  
-└── README.md                # <‑‑ YOU ARE HERE  
+├── prompts.csv                # Master prompt list (10 categories × 4 prompts)  
+├── promptsTest.py             # Unit‑test script to validate prompt coverage & syntax  
+├── mock2.py                   # Mock engine for offline testing (no API calls)  
+├── test3.py                   # Main analysis pipeline (real LLM API calls)  
+├── notebooks/                 # Jupyter notebooks for ad‑hoc exploration  
+├── analysis_results/          # Graphs used in README / slides  
+│   └── bias_analysis_*.csv    # Saved model outputs & computed metrics            
+├── requirements.txt           # Python dependencies  
+└── README.md                  # <‑‑ YOU ARE HERE  
 
 
 ---
