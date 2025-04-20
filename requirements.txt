@@ -1,0 +1,7 @@
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+requests>=2.31          # if your code calls web APIs
+openai>=1.0             # for GPT‑4o‑Mini calls
+google-generativeai     # for Gemini‑2.0‑Flash calls (or the gemini client you’re using)
+python-dotenv           # if you load API keys from a .env file
