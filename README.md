@@ -1,8 +1,8 @@
 README
 
-> Project Title: Gender‑Bias‑in‑Educational‑LLMs 
-> Author: Lingling
-> Date: April 2025
+> Project Title: Gender‑Bias‑in‑Educational‑LLMs  
+> Author: Lingling  
+> Date: April 2025  
 
 Table of Contents
 1. Project Overview
