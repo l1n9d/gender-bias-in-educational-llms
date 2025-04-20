@@ -43,36 +43,36 @@ Repository Structure
 Environment & Setup
 
 # 1 ️Clone the repo
-$ git clone https://github.com/your‑handle/gender‑bias‑educational‑llms.git
+$ git clone https://github.com/your‑handle/gender‑bias‑educational‑llms.git  
 $ cd gender‑bias‑educational‑llms
 
-# 2 ️Create a virtual env (recommended)
-$ python -m venv .venv && source .venv/bin/activate
+# 2 ️Create a virtual env (recommended)  
+$ python -m venv .venv && source .venv/bin/activate  
 
-# 3 Install dependencies
-$ pip install -r requirements.txt
+# 3  Install dependencies  
+$ pip install -r requirements.txt  
 
-# 4 ️Add your LLM keys (if running live)
-$ export OPENAI_API_KEY="..."
-$ export GEMINI_API_KEY="..."
+# 4 ️Add your LLM keys (if running live)  
+$ export OPENAI_API_KEY="..."  
+$ export GEMINI_API_KEY="..."  
 
-> Tip: You can still run `mock2.py` without any API keys for rapid local testing.
+> Tip: You can still run `mock2.py` without any API keys for rapid local testing.  
 
 ---
 
 Quick Start
 
 # A. Run the unit tests for prompts                                 
-$ python promptsTest.py
+$ python promptsTest.py  
 
 # B. Generate mock outputs (no API cost)                            
-$ python mock2.py --out data/mock_run.csv
+$ python mock2.py --out data/mock_run.csv  
 
-# C. Run the full bias analysis with live LLM calls                 
-$ python test3.py --prompts prompts.csv --out data/real_run.csv
+# C. Run the full bias analysis with live LLM calls                  
+$ python test3.py --prompts prompts.csv --out data/real_run.csv  
 
-# D. Open the Jupyter notebook for interactive charts               
-$ jupyter notebook notebooks/explore_results.ipynb
+# D. Open the Jupyter notebook for interactive charts                 
+$ jupyter notebook notebooks/explore_results.ipynb  
 
 
 ---
